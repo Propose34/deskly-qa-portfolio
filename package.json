@@ -1,0 +1,30 @@
+{
+  "name": "deskly-qa-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "evidence": "node scripts/save-evidence.mjs",
+    "preview:capture": "node scripts/capture-preview.mjs",
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "dev:fixed": "vite --mode fixed --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src tests docs/*.md README.md package.json tsconfig.json playwright.config.ts .github/workflows/qa.yml",
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:bugs": "playwright test --grep @bug",
+    "test:fixed": "cross-env APP_MODE=fixed playwright test",
+    "test:audit": "cross-env AUDIT=1 playwright test --grep @bug --project chromium",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.0.0",
+    "cross-env": "^7.0.3",
+    "prettier": "3.9.9",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}

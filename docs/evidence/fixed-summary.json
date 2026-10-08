@@ -1,0 +1,568 @@
+{
+  "label": "fixed",
+  "recordedAtUTC": "2026-10-08T23:24:38.340Z",
+  "stats": {
+    "startTime": "2026-10-08T23:24:38.340Z",
+    "duration": 58917.65700000001,
+    "expected": 69,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "actualPassed": 69,
+  "actualFailed": 0,
+  "cases": [
+    {
+      "case": "TC-001 catalog shows six products @smoke",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-002 category filters Tech @smoke",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-003 exact-name search",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-004 unknown search has empty state",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-005 add item and calculate total @smoke",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-006 empty bag",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-007 remove final item",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-008 cart survives reload",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-009 sold-out item is disabled",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-010 valid coupon discounts subtotal",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-011 invalid coupon rejected",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-012 free shipping above threshold",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-013 valid checkout clears cart @smoke",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-014 malformed email rejected",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-015 viewport has no horizontal overflow",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-016 Escape closes bag",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-023 product photographs load with accessible descriptions",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-001 catalog shows six products @smoke",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-002 category filters Tech @smoke",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-003 exact-name search",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-004 unknown search has empty state",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-005 add item and calculate total @smoke",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-006 empty bag",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-007 remove final item",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-008 cart survives reload",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-009 sold-out item is disabled",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-010 valid coupon discounts subtotal",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-011 invalid coupon rejected",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-012 free shipping above threshold",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-013 valid checkout clears cart @smoke",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-014 malformed email rejected",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-015 viewport has no horizontal overflow",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-016 Escape closes bag",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-023 product photographs load with accessible descriptions",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-001 catalog shows six products @smoke",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-002 category filters Tech @smoke",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-003 exact-name search",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-004 unknown search has empty state",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-005 add item and calculate total @smoke",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-006 empty bag",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-007 remove final item",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-008 cart survives reload",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-009 sold-out item is disabled",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-010 valid coupon discounts subtotal",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-011 invalid coupon rejected",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-012 free shipping above threshold",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-013 valid checkout clears cart @smoke",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-014 malformed email rejected",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-015 viewport has no horizontal overflow",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-016 Escape closes bag",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-023 product photographs load with accessible descriptions",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-017 BUG-001 search ignores letter case",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-018 BUG-002 price sorting is numeric",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-019 BUG-003 quantity cannot exceed stock",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-020 BUG-004 repeated coupon is idempotent",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-021 BUG-005 free shipping includes exact threshold",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-022 BUG-006 whitespace name and address rejected",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-017 BUG-001 search ignores letter case",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-018 BUG-002 price sorting is numeric",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-019 BUG-003 quantity cannot exceed stock",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-020 BUG-004 repeated coupon is idempotent",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-021 BUG-005 free shipping includes exact threshold",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-022 BUG-006 whitespace name and address rejected",
+      "project": "firefox",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-017 BUG-001 search ignores letter case",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-018 BUG-002 price sorting is numeric",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-019 BUG-003 quantity cannot exceed stock",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-020 BUG-004 repeated coupon is idempotent",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-021 BUG-005 free shipping includes exact threshold",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    },
+    {
+      "case": "TC-022 BUG-006 whitespace name and address rejected",
+      "project": "mobile-chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "passed",
+      "disposition": "expected",
+      "errorSummary": ""
+    }
+  ]
+}

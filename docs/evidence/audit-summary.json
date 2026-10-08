@@ -1,0 +1,64 @@
+{
+  "label": "audit",
+  "recordedAtUTC": "2026-10-08T23:25:38.599Z",
+  "stats": {
+    "startTime": "2026-10-08T23:25:38.599Z",
+    "duration": 26059.98,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 6,
+    "flaky": 0
+  },
+  "actualPassed": 0,
+  "actualFailed": 6,
+  "cases": [
+    {
+      "case": "TC-017 BUG-001 search ignores letter case",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "failed",
+      "disposition": "unexpected",
+      "errorSummary": "Error: expect(locator).toBeVisible() failed"
+    },
+    {
+      "case": "TC-018 BUG-002 price sorting is numeric",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "failed",
+      "disposition": "unexpected",
+      "errorSummary": "Error: expect(received).toEqual(expected) // deep equality"
+    },
+    {
+      "case": "TC-019 BUG-003 quantity cannot exceed stock",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "failed",
+      "disposition": "unexpected",
+      "errorSummary": "Error: expect(locator).toHaveText(expected) failed"
+    },
+    {
+      "case": "TC-020 BUG-004 repeated coupon is idempotent",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "failed",
+      "disposition": "unexpected",
+      "errorSummary": "Error: expect(locator).toHaveText(expected) failed"
+    },
+    {
+      "case": "TC-021 BUG-005 free shipping includes exact threshold",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "failed",
+      "disposition": "unexpected",
+      "errorSummary": "Error: expect(locator).toHaveText(expected) failed"
+    },
+    {
+      "case": "TC-022 BUG-006 whitespace name and address rejected",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "actualStatus": "failed",
+      "disposition": "unexpected",
+      "errorSummary": "Error: expect(locator).toHaveText(expected) failed"
+    }
+  ]
+}

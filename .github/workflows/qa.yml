@@ -1,0 +1,29 @@
+name: QA portfolio
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        mode: [buggy, fixed]
+    env:
+      APP_MODE: ${{ matrix.mode }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium firefox
+      - run: npm run build
+      - run: npm test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qa-evidence-${{ matrix.mode }}
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 14
